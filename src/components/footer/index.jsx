@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="footer__Sosials__imag">
                   <img src={aboutmeData.footerImage} alt="social" />
                 </div>
-                <h2>ali hatem ramada</h2>
+                <h2>Abdulrahman Hatem</h2>
                 <h6>FRONT END DEVELOPER</h6>
                 <div className="footer__Sosials__icons">
                   <ul className="list-unstyled">
