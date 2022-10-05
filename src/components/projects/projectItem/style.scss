@@ -16,6 +16,16 @@ $base-color: #3d3c42;
   box-shadow: 3px 4px 13px 0px #3d3c42;
   text-transform: capitalize;
 
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+  }
   .img-container {
     img {
       height: 254px;
@@ -41,14 +51,15 @@ $base-color: #3d3c42;
 
   .card-buttons {
     a {
-      width: 40%;
+      width: 32%;
       color: white;
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 500;
       font-family: monospace;
       padding: 6px 0;
-      margin: 9px 0;
+
       border: 1px solid #fff;
+      margin: 0 8px;
 
       &:hover {
         background-color: white;
